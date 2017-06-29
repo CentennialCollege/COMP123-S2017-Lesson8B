@@ -21,6 +21,11 @@ namespace COMP123_S2017_Lesson8B
             student.Talks();
 
             Console.WriteLine("\n");
+
+            DomesticStudent domestic = new DomesticStudent("Mary", 19, "123456788B");
+            domestic.Talks();
+
+            Console.WriteLine("\n");
         }
     }
 }
